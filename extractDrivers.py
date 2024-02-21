@@ -1,4 +1,3 @@
-import boto3
 import pandas as pd
 import requests
 import json
@@ -13,5 +12,4 @@ def extractDriversData(year):
     data['year'] = year
     response = requests.put(url, headers=headers, data=json.dumps(data))
     driversJson = response.json()
-    driversDf = pd.DataFrame(driversJson)
-    return driversDf
+    return driversJson
