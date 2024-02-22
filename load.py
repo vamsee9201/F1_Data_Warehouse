@@ -27,15 +27,15 @@ def loadData(df):
     return "loaded data"
 
 # %%
-"""
-import extractDrivers
-import transformDrivers
+
+import extract
+import transform
 
 if __name__ == "__main__":
-    json = extractDrivers.extractDriversData(2022)
+    json = extract.extractDriversData(2022)
     print(json)
-    df = transformDrivers.transformDrivers(json)
+    df = transform.transform(json)
     print(df)
     loadData(df)
-"""
+
 # %%
