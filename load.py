@@ -27,6 +27,7 @@ def loadData(df):
     return "loaded data"
 
 # %%
+"""
 import extractDrivers
 import transformDrivers
 
@@ -36,4 +37,5 @@ if __name__ == "__main__":
     df = transformDrivers.transformDrivers(json)
     print(df)
     loadData(df)
+"""
 # %%
