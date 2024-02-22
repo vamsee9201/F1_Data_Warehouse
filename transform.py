@@ -1,6 +1,6 @@
 #transform drivers with pandas.
 import pandas as pd
 #%%
-def transformDrivers(driversJson):
+def transform(driversJson):
     driversDf = pd.DataFrame(driversJson)
     return driversDf
