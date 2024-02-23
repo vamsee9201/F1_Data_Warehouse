@@ -15,7 +15,7 @@ default_args = {
 dag = DAG(
     'drivers_to_bq',
     default_args=default_args,
-    start_date=dt.datetime(2021,2,1),
+    start_date=dt.datetime(2023,2,1),
     schedule=dt.timedelta(days=365),
     catchup=True
 )
