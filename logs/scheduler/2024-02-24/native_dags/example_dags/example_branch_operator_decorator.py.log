@@ -1,0 +1,1120 @@
+[2024-02-24T11:48:33.884-0600] {processor.py:161} INFO - Started process (PID=75038) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:48:33.885-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T11:48:33.886-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:48:33.886-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:48:33.920-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:48:33.904-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T11:48:33.920-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:48:33.957-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.073 seconds
+[2024-02-24T11:50:41.482-0600] {processor.py:161} INFO - Started process (PID=75290) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:50:41.484-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T11:50:41.484-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:50:41.484-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:50:41.519-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:50:41.502-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T11:50:41.519-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:50:41.557-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.075 seconds
+[2024-02-24T11:53:02.060-0600] {processor.py:161} INFO - Started process (PID=75466) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:53:02.062-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T11:53:02.062-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:53:02.062-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:53:02.096-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:53:02.080-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T11:53:02.096-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:53:02.133-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.074 seconds
+[2024-02-24T11:55:00.355-0600] {processor.py:161} INFO - Started process (PID=75556) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:55:00.357-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T11:55:00.357-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:55:00.357-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:55:00.391-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:55:00.375-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T11:55:00.392-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:55:00.429-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.075 seconds
+[2024-02-24T11:56:52.438-0600] {processor.py:161} INFO - Started process (PID=75654) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:56:52.440-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T11:56:52.440-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:56:52.440-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:56:52.476-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:56:52.460-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T11:56:52.476-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:56:52.513-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.076 seconds
+[2024-02-24T11:58:58.306-0600] {processor.py:161} INFO - Started process (PID=75791) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:58:58.310-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T11:58:58.310-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:58:58.310-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:58:58.444-0600] {logging_mixin.py:188} INFO - [2024-02-24T11:58:58.406-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T11:58:58.445-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T11:58:58.488-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.182 seconds
+[2024-02-24T12:01:11.565-0600] {processor.py:161} INFO - Started process (PID=75978) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:01:11.567-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:01:11.567-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:01:11.567-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:01:11.602-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:01:11.586-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:01:11.603-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:01:11.640-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.075 seconds
+[2024-02-24T12:03:08.358-0600] {processor.py:161} INFO - Started process (PID=76109) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:03:08.360-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:03:08.360-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:03:08.360-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:03:08.394-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:03:08.377-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:03:08.394-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:03:08.431-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.073 seconds
+[2024-02-24T12:37:33.673-0600] {processor.py:161} INFO - Started process (PID=76319) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:37:33.675-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:37:33.675-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:37:33.675-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:37:33.711-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:37:33.695-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:37:33.711-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:37:33.748-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.076 seconds
+[2024-02-24T12:39:40.448-0600] {processor.py:161} INFO - Started process (PID=76480) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:39:40.449-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:39:40.450-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:39:40.450-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:39:40.486-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:39:40.470-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:39:40.486-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:39:40.523-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.076 seconds
+[2024-02-24T12:41:39.042-0600] {processor.py:161} INFO - Started process (PID=76595) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:41:39.044-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:41:39.044-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:41:39.044-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:41:39.080-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:41:39.064-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:41:39.080-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:41:39.118-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.077 seconds
+[2024-02-24T12:43:43.675-0600] {processor.py:161} INFO - Started process (PID=76720) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:43:43.677-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:43:43.677-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:43:43.677-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:43:43.712-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:43:43.695-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:43:43.713-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:43:43.751-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.077 seconds
+[2024-02-24T12:46:06.042-0600] {processor.py:161} INFO - Started process (PID=76967) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:46:06.044-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:46:06.044-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:46:06.044-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:46:06.079-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:46:06.063-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:46:06.080-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:46:06.120-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.079 seconds
+[2024-02-24T12:48:14.017-0600] {processor.py:161} INFO - Started process (PID=77073) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:48:14.020-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:48:14.020-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:48:14.020-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:48:14.056-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:48:14.038-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:48:14.056-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:48:14.094-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.077 seconds
+[2024-02-24T12:50:22.169-0600] {processor.py:161} INFO - Started process (PID=77175) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:50:22.171-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:50:22.171-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:50:22.171-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:50:22.208-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:50:22.192-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:50:22.208-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:50:22.247-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.079 seconds
+[2024-02-24T12:52:26.105-0600] {processor.py:161} INFO - Started process (PID=77285) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:52:26.107-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:52:26.107-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:52:26.107-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:52:26.158-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:52:26.140-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:52:26.158-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:52:26.199-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.096 seconds
+[2024-02-24T12:54:37.080-0600] {processor.py:161} INFO - Started process (PID=77394) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:54:37.082-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:54:37.082-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:54:37.082-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:54:37.118-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:54:37.102-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:54:37.119-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:54:37.158-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.079 seconds
+[2024-02-24T12:56:46.283-0600] {processor.py:161} INFO - Started process (PID=77492) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:56:46.285-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:56:46.285-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:56:46.285-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:56:46.325-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:56:46.305-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:56:46.325-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:56:46.364-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.082 seconds
+[2024-02-24T12:58:54.928-0600] {processor.py:161} INFO - Started process (PID=77605) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:58:54.929-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T12:58:54.930-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:58:54.930-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:58:54.968-0600] {logging_mixin.py:188} INFO - [2024-02-24T12:58:54.952-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T12:58:54.969-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T12:58:55.014-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.086 seconds
+[2024-02-24T13:01:06.162-0600] {processor.py:161} INFO - Started process (PID=77743) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:01:06.163-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:01:06.164-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:01:06.164-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:01:06.196-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:01:06.181-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:01:06.197-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:01:06.232-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.070 seconds
+[2024-02-24T13:03:01.047-0600] {processor.py:161} INFO - Started process (PID=77874) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:03:01.048-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:03:01.049-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:03:01.049-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:03:01.086-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:03:01.068-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:03:01.086-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:03:01.121-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.074 seconds
+[2024-02-24T13:04:54.538-0600] {processor.py:161} INFO - Started process (PID=77961) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:04:54.540-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:04:54.541-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:04:54.541-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:04:54.573-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:04:54.557-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:04:54.573-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:04:54.608-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.070 seconds
+[2024-02-24T13:06:46.332-0600] {processor.py:161} INFO - Started process (PID=78043) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:06:46.334-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:06:46.334-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:06:46.334-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:06:46.366-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:06:46.351-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:06:46.366-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:06:46.400-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.068 seconds
+[2024-02-24T13:08:39.569-0600] {processor.py:161} INFO - Started process (PID=78131) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:08:39.571-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:08:39.571-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:08:39.571-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:08:39.603-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:08:39.588-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:08:39.603-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:08:39.637-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.069 seconds
+[2024-02-24T13:10:30.569-0600] {processor.py:161} INFO - Started process (PID=78217) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:10:30.571-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:10:30.571-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:10:30.571-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:10:30.604-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:10:30.589-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:10:30.604-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:10:30.638-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.069 seconds
+[2024-02-24T13:12:18.100-0600] {processor.py:161} INFO - Started process (PID=78302) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:12:18.105-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:12:18.105-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:12:18.105-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:12:18.137-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:12:18.122-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:12:18.137-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:12:18.170-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.071 seconds
+[2024-02-24T13:14:08.743-0600] {processor.py:161} INFO - Started process (PID=78386) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:14:08.745-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:14:08.745-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:14:08.745-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:14:08.777-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:14:08.762-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:14:08.777-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:14:08.811-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.068 seconds
+[2024-02-24T13:15:58.539-0600] {processor.py:161} INFO - Started process (PID=78475) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:15:58.541-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:15:58.541-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:15:58.541-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:15:58.573-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:15:58.558-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:15:58.575-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:15:58.610-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.071 seconds
+[2024-02-24T13:17:52.461-0600] {processor.py:161} INFO - Started process (PID=78584) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:17:52.463-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:17:52.463-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:17:52.463-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:17:52.495-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:17:52.480-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:17:52.495-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:17:52.529-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.069 seconds
+[2024-02-24T13:19:43.653-0600] {processor.py:161} INFO - Started process (PID=78669) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:19:43.655-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:19:43.655-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:19:43.655-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:19:43.687-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:19:43.672-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:19:43.687-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:19:43.721-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.068 seconds
+[2024-02-24T13:21:29.316-0600] {processor.py:161} INFO - Started process (PID=78750) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:21:29.318-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:21:29.318-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:21:29.318-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:21:29.349-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:21:29.335-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:21:29.349-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:21:29.383-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.068 seconds
+[2024-02-24T13:23:25.040-0600] {processor.py:161} INFO - Started process (PID=78876) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:23:25.041-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:23:25.041-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:23:25.041-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:23:25.074-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:23:25.059-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:23:25.074-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:23:25.108-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.069 seconds
+[2024-02-24T13:25:18.468-0600] {processor.py:161} INFO - Started process (PID=78965) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:25:18.470-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:25:18.470-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:25:18.470-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:25:18.501-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:25:18.487-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:25:18.501-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:25:18.537-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.070 seconds
+[2024-02-24T13:27:09.688-0600] {processor.py:161} INFO - Started process (PID=79092) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:27:09.690-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:27:09.690-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:27:09.690-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:27:09.724-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:27:09.709-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:27:09.725-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:27:09.760-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.072 seconds
+[2024-02-24T13:28:53.232-0600] {processor.py:161} INFO - Started process (PID=79204) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:28:53.234-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-02-24T13:28:53.234-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:28:53.234-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:28:53.266-0600] {logging_mixin.py:188} INFO - [2024-02-24T13:28:53.252-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py", line 125, in <module>
+    random_choice_venv = branching_virtualenv(choices=options)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/decorators/base.py", line 233, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/operators/python.py", line 584, in __init__
+    raise AirflowException("PythonVirtualenvOperator requires virtualenv, please install it.")
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2024-02-24T13:28:53.266-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-02-24T13:28:53.300-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.069 seconds
