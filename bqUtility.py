@@ -20,7 +20,10 @@ tableId = "f1datawarehouse.f1Test.driversData"
 jobConfig = bigquery.LoadJobConfig(
     write_disposition = "WRITE_APPEND",
 )
-def loadData(df):
+def loadData(df,tableId):
+    jobConfig = bigquery.LoadJobConfig(
+    write_disposition = "WRITE_APPEND",
+    )
     job = client.load_table_from_dataframe(
         df,tableId,jobConfig
     )
@@ -33,3 +36,4 @@ def loadData(df):
 def getData(sql):
     df = pd.DataFrame()
     return df
+#%%
