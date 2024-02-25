@@ -28,6 +28,7 @@ def loadData(df):
 
 # %%
 
+"""
 import extract
 import transform
 
@@ -37,6 +38,7 @@ if __name__ == "__main__":
     df = transform.transform(json)
     print(df)
     loadData(df)
+"""
 
 
 # %%

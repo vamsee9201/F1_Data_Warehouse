@@ -1,0 +1,725 @@
+[2024-02-24T16:01:03.098-0600] {processor.py:161} INFO - Started process (PID=87638) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:01:03.100-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:01:03.100-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:01:03.100-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:01:03.110-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:01:03.101-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py", line 2, in <module>
+    import extract
+ModuleNotFoundError: No module named 'extract'
+[2024-02-24T16:01:03.111-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:01:03.158-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.060 seconds
+[2024-02-24T16:02:40.743-0600] {processor.py:161} INFO - Started process (PID=87892) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:02:40.745-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:02:40.745-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:02:40.745-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:02:40.753-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:02:40.746-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py", line 2, in <module>
+    import extract
+ModuleNotFoundError: No module named 'extract'
+[2024-02-24T16:02:40.754-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:02:40.793-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.051 seconds
+[2024-02-24T16:03:44.936-0600] {processor.py:161} INFO - Started process (PID=88002) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:03:44.938-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:03:44.938-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:03:44.938-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:03:44.946-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:03:44.939-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py", line 2, in <module>
+    import extract
+ModuleNotFoundError: No module named 'extract'
+[2024-02-24T16:03:44.948-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:03:44.990-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.055 seconds
+[2024-02-24T16:04:44.282-0600] {processor.py:161} INFO - Started process (PID=88142) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:04:44.284-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:04:44.284-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:04:44.284-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:04:44.299-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:04:44.285-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py", line 2, in <module>
+    import extract
+ModuleNotFoundError: No module named 'extract'
+[2024-02-24T16:04:44.301-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:04:44.371-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.090 seconds
+[2024-02-24T16:05:43.102-0600] {processor.py:161} INFO - Started process (PID=88228) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:05:43.104-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:05:43.104-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:05:43.104-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:05:43.113-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:05:43.106-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py", line 2, in <module>
+    import extract
+ModuleNotFoundError: No module named 'extract'
+[2024-02-24T16:05:43.114-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:05:43.178-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.077 seconds
+[2024-02-24T16:06:41.647-0600] {processor.py:161} INFO - Started process (PID=88322) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:06:41.650-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:06:41.652-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:06:41.651-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:06:41.678-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:06:41.656-0600] {dagbag.py:348} ERROR - Failed to import: /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+Traceback (most recent call last):
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/f1datawarehouse/lib/python3.9/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py", line 2, in <module>
+    import extract
+ModuleNotFoundError: No module named 'extract'
+[2024-02-24T16:06:41.682-0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:06:41.810-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.164 seconds
+[2024-02-24T16:07:39.583-0600] {processor.py:161} INFO - Started process (PID=88443) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:07:39.585-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:07:39.585-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:07:39.585-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:07:39.591-0600] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:07:39.715-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:07:39.715-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:07:39.722-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:07:39.722-0600] {dag.py:3823} INFO - Setting next_dagrun for example_bash_operator to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:07:39.731-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.149 seconds
+[2024-02-24T16:08:38.969-0600] {processor.py:161} INFO - Started process (PID=88567) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:08:38.971-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:08:38.971-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:08:38.971-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:08:38.977-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:08:39.089-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:08:39.088-0600] {override.py:1769} INFO - Created Permission View: can delete on DAG:dags_file_tester
+[2024-02-24T16:08:39.092-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:08:39.092-0600] {override.py:1769} INFO - Created Permission View: can read on DAG:dags_file_tester
+[2024-02-24T16:08:39.094-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:08:39.094-0600] {override.py:1769} INFO - Created Permission View: can edit on DAG:dags_file_tester
+[2024-02-24T16:08:39.094-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:08:39.094-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:08:39.099-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:08:39.099-0600] {dag.py:3058} INFO - Creating ORM DAG for dags_file_tester
+[2024-02-24T16:08:39.102-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:08:39.102-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:08:39.112-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.143 seconds
+[2024-02-24T16:09:36.217-0600] {processor.py:161} INFO - Started process (PID=88645) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:09:36.221-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:09:36.221-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:09:36.221-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:09:36.232-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:09:36.309-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:09:36.309-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:09:36.317-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:09:36.317-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:09:36.324-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.108 seconds
+[2024-02-24T16:10:34.874-0600] {processor.py:161} INFO - Started process (PID=88748) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:10:34.876-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:10:34.876-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:10:34.876-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:10:34.882-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:10:34.956-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:10:34.956-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:10:34.964-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:10:34.964-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:10:34.971-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T16:11:32.829-0600] {processor.py:161} INFO - Started process (PID=88845) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:11:32.831-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:11:32.832-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:11:32.831-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:11:32.837-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:11:32.910-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:11:32.910-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:11:32.918-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:11:32.918-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:11:32.925-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T16:12:30.036-0600] {processor.py:161} INFO - Started process (PID=88924) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:12:30.038-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:12:30.038-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:12:30.038-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:12:30.044-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:12:30.116-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:12:30.116-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:12:30.124-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:12:30.124-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:12:30.131-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.096 seconds
+[2024-02-24T16:13:24.408-0600] {processor.py:161} INFO - Started process (PID=89018) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:13:24.409-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:13:24.409-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:13:24.409-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:13:24.415-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:13:24.489-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:13:24.489-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:13:24.497-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:13:24.497-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:13:24.504-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T16:14:21.419-0600] {processor.py:161} INFO - Started process (PID=89092) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:14:21.421-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:14:21.421-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:14:21.421-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:14:21.426-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:14:21.505-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:14:21.505-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:14:21.514-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:14:21.514-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:14:21.524-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.106 seconds
+[2024-02-24T16:15:15.618-0600] {processor.py:161} INFO - Started process (PID=89216) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:15:15.620-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:15:15.620-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:15:15.620-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:15:15.626-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:15:15.700-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:15:15.700-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:15:15.708-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:15:15.708-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:15:15.716-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T16:16:09.339-0600] {processor.py:161} INFO - Started process (PID=89314) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:16:09.341-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:16:09.341-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:16:09.341-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:16:09.346-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:16:09.420-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:16:09.420-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:16:09.428-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:16:09.428-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:16:09.435-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T16:17:04.606-0600] {processor.py:161} INFO - Started process (PID=89421) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:17:04.607-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:17:04.607-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:17:04.607-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:17:04.613-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:17:04.694-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:17:04.694-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:17:04.707-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:17:04.707-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:17:04.718-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.113 seconds
+[2024-02-24T16:18:03.670-0600] {processor.py:161} INFO - Started process (PID=89510) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:18:03.671-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:18:03.672-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:18:03.672-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:18:03.677-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:18:03.772-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:18:03.772-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:18:03.781-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:18:03.780-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:18:03.788-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.119 seconds
+[2024-02-24T16:19:02.534-0600] {processor.py:161} INFO - Started process (PID=89607) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:19:02.536-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:19:02.536-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:19:02.536-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:19:02.542-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:19:02.616-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:19:02.616-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:19:02.624-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:19:02.624-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:19:02.632-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.099 seconds
+[2024-02-24T16:20:03.071-0600] {processor.py:161} INFO - Started process (PID=89699) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:20:03.073-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:20:03.073-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:20:03.073-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:20:03.078-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:20:03.151-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:20:03.150-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:20:03.159-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:20:03.159-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:20:03.166-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.095 seconds
+[2024-02-24T16:21:02.608-0600] {processor.py:161} INFO - Started process (PID=89788) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:21:02.610-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:21:02.610-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:21:02.610-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:21:02.616-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:21:02.702-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:21:02.702-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:21:02.710-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:21:02.710-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:21:02.718-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.110 seconds
+[2024-02-24T16:22:09.296-0600] {processor.py:161} INFO - Started process (PID=89885) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:22:09.298-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:22:09.299-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:22:09.299-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:22:09.304-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:22:09.380-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:22:09.380-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:22:09.388-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:22:09.388-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:22:09.396-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.101 seconds
+[2024-02-24T16:23:08.635-0600] {processor.py:161} INFO - Started process (PID=89981) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:23:08.636-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:23:08.636-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:23:08.636-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:23:08.643-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:23:08.721-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:23:08.720-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:23:08.729-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:23:08.728-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:23:08.738-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.104 seconds
+[2024-02-24T16:24:12.092-0600] {processor.py:161} INFO - Started process (PID=90079) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:24:12.094-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:24:12.095-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:24:12.094-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:24:12.100-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:24:12.185-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:24:12.185-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:24:12.193-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:24:12.193-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:24:12.204-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.113 seconds
+[2024-02-24T16:25:13.834-0600] {processor.py:161} INFO - Started process (PID=90176) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:25:13.835-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:25:13.836-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:25:13.835-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:25:13.842-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:25:13.929-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:25:13.929-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:25:13.937-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:25:13.937-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:25:13.951-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.118 seconds
+[2024-02-24T16:26:16.656-0600] {processor.py:161} INFO - Started process (PID=90280) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:26:16.658-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:26:16.658-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:26:16.658-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:26:16.664-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:26:16.746-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:26:16.745-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:26:16.753-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:26:16.753-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:26:16.762-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.107 seconds
+[2024-02-24T16:27:16.659-0600] {processor.py:161} INFO - Started process (PID=90356) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:27:16.661-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:27:16.661-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:27:16.661-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:27:16.667-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:27:16.742-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:27:16.742-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:27:16.751-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:27:16.751-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:27:16.759-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.101 seconds
+[2024-02-24T16:28:16.684-0600] {processor.py:161} INFO - Started process (PID=90432) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:28:16.687-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:28:16.688-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:28:16.688-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:28:16.708-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:28:16.951-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:28:16.951-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:28:16.989-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:28:16.988-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:28:17.020-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.337 seconds
+[2024-02-24T16:29:17.598-0600] {processor.py:161} INFO - Started process (PID=90507) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:29:17.600-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:29:17.600-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:29:17.600-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:29:17.606-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:29:17.688-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:29:17.688-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:29:17.708-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:29:17.707-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:29:17.720-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.123 seconds
+[2024-02-24T16:30:17.120-0600] {processor.py:161} INFO - Started process (PID=90568) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:30:17.122-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:30:17.122-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:30:17.122-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:30:17.128-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:30:17.207-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:30:17.207-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:30:17.215-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:30:17.215-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:30:17.223-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.103 seconds
+[2024-02-24T16:31:17.860-0600] {processor.py:161} INFO - Started process (PID=90637) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:31:17.862-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:31:17.863-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:31:17.863-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:31:17.870-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:31:17.950-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:31:17.950-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:31:17.959-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:31:17.959-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:31:17.967-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.109 seconds
+[2024-02-24T16:32:21.735-0600] {processor.py:161} INFO - Started process (PID=90734) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:32:21.737-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:32:21.738-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:32:21.738-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:32:21.745-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:32:21.851-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:32:21.851-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:32:21.861-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:32:21.860-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:32:21.869-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.139 seconds
+[2024-02-24T16:33:31.239-0600] {processor.py:161} INFO - Started process (PID=90840) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:33:31.241-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:33:31.241-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:33:31.241-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:33:31.249-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:33:31.323-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:33:31.323-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:33:31.331-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:33:31.330-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:33:31.339-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.100 seconds
+[2024-02-24T16:34:37.914-0600] {processor.py:161} INFO - Started process (PID=90960) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:34:37.916-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:34:37.916-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:34:37.916-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:34:37.922-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:34:38.010-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:34:38.009-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:34:38.089-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:34:38.089-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:34:38.101-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.189 seconds
+[2024-02-24T16:35:38.614-0600] {processor.py:161} INFO - Started process (PID=91013) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:35:38.615-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:35:38.616-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:35:38.616-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:35:38.622-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:35:38.698-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:35:38.698-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:35:38.706-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:35:38.706-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:35:38.713-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.100 seconds
+[2024-02-24T16:36:40.678-0600] {processor.py:161} INFO - Started process (PID=91082) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:36:40.680-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:36:40.680-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:36:40.680-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:36:40.686-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:36:40.760-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:36:40.759-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:36:40.767-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:36:40.767-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:36:40.775-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T16:37:39.051-0600] {processor.py:161} INFO - Started process (PID=91151) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:37:39.053-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:37:39.054-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:37:39.053-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:37:39.059-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:37:39.134-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:37:39.134-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:37:39.142-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:37:39.142-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:37:39.149-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.099 seconds
+[2024-02-24T16:38:37.828-0600] {processor.py:161} INFO - Started process (PID=91217) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:38:37.830-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:38:37.830-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:38:37.830-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:38:37.836-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:38:37.911-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:38:37.911-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:38:37.919-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:38:37.919-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:38:37.926-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.099 seconds
+[2024-02-24T16:39:42.297-0600] {processor.py:161} INFO - Started process (PID=91319) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:39:42.299-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:39:42.299-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:39:42.299-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:39:42.305-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:39:42.383-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:39:42.383-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:39:42.391-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:39:42.391-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:39:42.399-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.103 seconds
+[2024-02-24T16:40:40.724-0600] {processor.py:161} INFO - Started process (PID=91382) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:40:40.726-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:40:40.726-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:40:40.726-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:40:40.732-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:40:40.808-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:40:40.807-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:40:40.815-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:40:40.815-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:40:40.823-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.099 seconds
+[2024-02-24T16:41:39.122-0600] {processor.py:161} INFO - Started process (PID=91431) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:41:39.123-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:41:39.123-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:41:39.123-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:41:39.129-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:41:39.204-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:41:39.204-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:41:39.212-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:41:39.211-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:41:39.219-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T16:42:39.977-0600] {processor.py:161} INFO - Started process (PID=91556) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:42:39.979-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:42:39.979-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:42:39.979-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:42:39.984-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:42:40.058-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:42:40.058-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:42:40.066-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:42:40.066-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:42:40.073-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T16:43:39.240-0600] {processor.py:161} INFO - Started process (PID=91666) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:43:39.241-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:43:39.242-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:43:39.242-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:43:39.248-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:43:39.321-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:43:39.320-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:43:39.328-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:43:39.328-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:43:39.336-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T16:44:43.236-0600] {processor.py:161} INFO - Started process (PID=91782) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:44:43.238-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:44:43.239-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:44:43.239-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:44:43.246-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:44:43.329-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:44:43.329-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:44:43.338-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:44:43.337-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:44:43.346-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.110 seconds
+[2024-02-24T16:45:46.043-0600] {processor.py:161} INFO - Started process (PID=91869) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:45:46.045-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:45:46.045-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:45:46.045-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:45:46.051-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:45:46.125-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:45:46.125-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:45:46.133-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:45:46.133-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:45:46.140-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T16:46:42.292-0600] {processor.py:161} INFO - Started process (PID=91928) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:46:42.296-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:46:42.297-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:46:42.297-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:46:42.319-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:46:42.487-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:46:42.487-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:46:42.496-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:46:42.496-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:46:42.504-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.213 seconds
+[2024-02-24T16:47:44.535-0600] {processor.py:161} INFO - Started process (PID=92038) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:47:44.537-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:47:44.537-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:47:44.537-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:47:44.543-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:47:44.618-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:47:44.617-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:47:44.625-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:47:44.625-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:47:44.633-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T16:48:46.247-0600] {processor.py:161} INFO - Started process (PID=92159) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:48:46.248-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:48:46.249-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:48:46.249-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:48:46.254-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:48:46.333-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:48:46.332-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:48:46.340-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:48:46.340-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:48:46.348-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.103 seconds
+[2024-02-24T16:49:47.932-0600] {processor.py:161} INFO - Started process (PID=92229) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:49:47.934-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:49:47.934-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:49:47.934-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:49:47.940-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:49:48.017-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:49:48.016-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:49:48.025-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:49:48.025-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:49:48.032-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.101 seconds
+[2024-02-24T16:50:50.111-0600] {processor.py:161} INFO - Started process (PID=92315) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:50:50.113-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:50:50.113-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:50:50.113-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:50:50.118-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:50:50.192-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:50:50.192-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:50:50.200-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:50:50.200-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:50:50.207-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T16:51:53.069-0600] {processor.py:161} INFO - Started process (PID=92422) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:51:53.070-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:51:53.071-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:51:53.071-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:51:53.078-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:51:53.163-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:51:53.163-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:51:53.171-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:51:53.171-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:51:53.181-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.113 seconds
+[2024-02-24T16:52:53.681-0600] {processor.py:161} INFO - Started process (PID=92510) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:52:53.683-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:52:53.683-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:52:53.683-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:52:53.688-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:52:53.762-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:52:53.762-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:52:53.770-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:52:53.770-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:52:53.777-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T16:53:57.617-0600] {processor.py:161} INFO - Started process (PID=92610) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:53:57.618-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:53:57.619-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:53:57.619-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:53:57.624-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:53:57.698-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:53:57.698-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:53:57.706-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:53:57.705-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:53:57.713-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T16:55:02.134-0600] {processor.py:161} INFO - Started process (PID=92678) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:55:02.136-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:55:02.136-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:55:02.136-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:55:02.142-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:55:02.218-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:55:02.218-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:55:02.227-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:55:02.227-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:55:02.235-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.101 seconds
+[2024-02-24T16:56:08.137-0600] {processor.py:161} INFO - Started process (PID=92749) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:56:08.139-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:56:08.139-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:56:08.139-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:56:08.145-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:56:08.218-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:56:08.218-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:56:08.225-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:56:08.225-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:56:08.238-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.102 seconds
+[2024-02-24T16:57:11.051-0600] {processor.py:161} INFO - Started process (PID=92826) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:57:11.052-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:57:11.052-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:57:11.052-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:57:11.058-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:57:11.141-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:57:11.141-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:57:11.150-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:57:11.150-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:57:11.158-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.108 seconds
+[2024-02-24T16:58:08.979-0600] {processor.py:161} INFO - Started process (PID=92931) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:58:08.981-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:58:08.981-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:58:08.981-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:58:08.987-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:58:09.060-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:58:09.060-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:58:09.068-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:58:09.068-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:58:09.075-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T16:59:08.538-0600] {processor.py:161} INFO - Started process (PID=93015) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:59:08.539-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T16:59:08.539-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:59:08.539-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:59:08.545-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T16:59:08.619-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:59:08.618-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T16:59:08.626-0600] {logging_mixin.py:188} INFO - [2024-02-24T16:59:08.626-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T16:59:08.634-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T17:00:12.925-0600] {processor.py:161} INFO - Started process (PID=93103) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:00:12.926-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:00:12.926-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:00:12.926-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:00:12.932-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:00:13.006-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:00:13.006-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:00:13.014-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:00:13.013-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:00:13.021-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T17:01:18.798-0600] {processor.py:161} INFO - Started process (PID=93212) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:01:18.799-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:01:18.799-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:01:18.799-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:01:18.805-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:01:18.878-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:01:18.878-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:01:18.886-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:01:18.886-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:01:18.893-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.096 seconds
+[2024-02-24T17:02:16.050-0600] {processor.py:161} INFO - Started process (PID=93272) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:02:16.052-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:02:16.052-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:02:16.052-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:02:16.058-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:02:16.132-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:02:16.132-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:02:16.140-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:02:16.140-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:02:16.152-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.103 seconds
+[2024-02-24T17:03:11.790-0600] {processor.py:161} INFO - Started process (PID=93331) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:03:11.792-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:03:11.792-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:03:11.792-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:03:11.797-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:03:11.870-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:03:11.870-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:03:11.877-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:03:11.877-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:03:11.885-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.095 seconds
+[2024-02-24T17:04:11.057-0600] {processor.py:161} INFO - Started process (PID=93401) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:04:11.059-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:04:11.059-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:04:11.059-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:04:11.065-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:04:11.138-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:04:11.138-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:04:11.146-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:04:11.146-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:04:11.153-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T17:05:18.077-0600] {processor.py:161} INFO - Started process (PID=93472) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:05:18.079-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:05:18.079-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:05:18.079-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:05:18.084-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:05:18.171-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:05:18.171-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:05:18.181-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:05:18.181-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:05:18.189-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.113 seconds
+[2024-02-24T17:06:19.192-0600] {processor.py:161} INFO - Started process (PID=93543) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:06:19.194-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:06:19.195-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:06:19.195-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:06:19.200-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:06:19.274-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:06:19.274-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:06:19.282-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:06:19.282-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:06:19.290-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T17:07:18.734-0600] {processor.py:161} INFO - Started process (PID=93590) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:07:18.736-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:07:18.736-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:07:18.736-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:07:18.742-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:07:18.817-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:07:18.817-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:07:18.825-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:07:18.825-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:07:18.834-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.100 seconds
+[2024-02-24T17:08:21.758-0600] {processor.py:161} INFO - Started process (PID=93644) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:08:21.759-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:08:21.760-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:08:21.760-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:08:21.766-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:08:21.842-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:08:21.842-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:08:21.851-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:08:21.851-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:08:21.859-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.102 seconds
+[2024-02-24T17:09:23.338-0600] {processor.py:161} INFO - Started process (PID=93689) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:09:23.340-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:09:23.340-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:09:23.340-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:09:23.346-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:09:23.420-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:09:23.420-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:09:23.428-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:09:23.428-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:09:23.436-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T17:10:27.062-0600] {processor.py:161} INFO - Started process (PID=93750) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:10:27.064-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:10:27.064-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:10:27.064-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:10:27.074-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:10:27.164-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:10:27.164-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:10:27.174-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:10:27.174-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:10:27.182-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.121 seconds
+[2024-02-24T17:11:34.132-0600] {processor.py:161} INFO - Started process (PID=93815) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:11:34.134-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:11:34.134-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:11:34.134-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:11:34.139-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:11:34.215-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:11:34.214-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:11:34.222-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:11:34.222-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:11:34.230-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T17:12:37.201-0600] {processor.py:161} INFO - Started process (PID=93877) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:12:37.203-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:12:37.204-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:12:37.204-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:12:37.210-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:12:37.307-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:12:37.306-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:12:37.318-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:12:37.318-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:12:37.328-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.128 seconds
+[2024-02-24T17:13:38.971-0600] {processor.py:161} INFO - Started process (PID=93951) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:13:38.972-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:13:38.972-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:13:38.972-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:13:38.978-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:13:39.056-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:13:39.056-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:13:39.067-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:13:39.067-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:13:39.075-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.105 seconds
+[2024-02-24T17:14:43.380-0600] {processor.py:161} INFO - Started process (PID=94018) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:14:43.382-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:14:43.382-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:14:43.382-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:14:43.389-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:14:43.479-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:14:43.479-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:14:43.487-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:14:43.487-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:14:43.500-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.122 seconds
+[2024-02-24T17:15:46.596-0600] {processor.py:161} INFO - Started process (PID=94062) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:15:46.599-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:15:46.599-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:15:46.599-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:15:46.605-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:15:46.692-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:15:46.692-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:15:46.702-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:15:46.702-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:15:46.710-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.115 seconds
+[2024-02-24T17:16:47.972-0600] {processor.py:161} INFO - Started process (PID=94123) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:16:47.974-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:16:47.974-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:16:47.974-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:16:47.980-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:16:48.055-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:16:48.055-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:16:48.064-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:16:48.063-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:16:48.071-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.100 seconds
+[2024-02-24T17:17:48.588-0600] {processor.py:161} INFO - Started process (PID=94170) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:17:48.591-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:17:48.591-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:17:48.591-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:17:48.598-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:17:48.673-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:17:48.673-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:17:48.680-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:17:48.680-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:17:48.688-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.101 seconds
+[2024-02-24T17:18:47.857-0600] {processor.py:161} INFO - Started process (PID=94219) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:18:47.859-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:18:47.859-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:18:47.859-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:18:47.865-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:18:47.939-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:18:47.939-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:18:47.947-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:18:47.947-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:18:47.955-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.099 seconds
+[2024-02-24T17:19:47.973-0600] {processor.py:161} INFO - Started process (PID=94269) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:19:47.975-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:19:47.975-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:19:47.975-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:19:47.981-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:19:48.091-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:19:48.090-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:19:48.101-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:19:48.101-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:19:48.109-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.136 seconds
+[2024-02-24T17:20:45.650-0600] {processor.py:161} INFO - Started process (PID=94321) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:20:45.652-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:20:45.652-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:20:45.652-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:20:45.658-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:20:45.731-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:20:45.731-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:20:45.739-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:20:45.739-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:20:45.746-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.097 seconds
+[2024-02-24T17:21:44.880-0600] {processor.py:161} INFO - Started process (PID=94370) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:21:44.882-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:21:44.883-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:21:44.883-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:21:44.888-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:21:44.963-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:21:44.962-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:21:44.970-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:21:44.970-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:21:44.977-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.098 seconds
+[2024-02-24T17:22:50.324-0600] {processor.py:161} INFO - Started process (PID=94537) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:22:50.327-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:22:50.328-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:22:50.328-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:22:50.341-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:22:50.467-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:22:50.466-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:22:50.482-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:22:50.482-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:22:50.495-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.172 seconds
+[2024-02-24T17:23:51.447-0600] {processor.py:161} INFO - Started process (PID=94606) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:23:51.449-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:23:51.449-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:23:51.449-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:23:51.455-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:23:51.504-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:23:51.504-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:23:51.511-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:23:51.511-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:23:51.519-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.072 seconds
+[2024-02-24T17:24:54.358-0600] {processor.py:161} INFO - Started process (PID=94683) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:24:54.360-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:24:54.360-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:24:54.360-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:24:54.368-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:24:54.418-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:24:54.418-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:24:54.426-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:24:54.426-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:24:54.434-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.076 seconds
+[2024-02-24T17:25:56.995-0600] {processor.py:161} INFO - Started process (PID=94731) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:25:56.996-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:25:56.996-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:25:56.996-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:25:57.001-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:25:57.050-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:25:57.050-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:25:57.058-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:25:57.058-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:25:57.066-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.072 seconds
+[2024-02-24T17:26:56.170-0600] {processor.py:161} INFO - Started process (PID=94778) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:26:56.172-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:26:56.172-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:26:56.172-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:26:56.178-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:26:56.228-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:26:56.228-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:26:56.235-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:26:56.235-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:26:56.243-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.074 seconds
+[2024-02-24T17:27:57.208-0600] {processor.py:161} INFO - Started process (PID=94823) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:27:57.209-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:27:57.209-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:27:57.209-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:27:57.215-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:27:57.265-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:27:57.265-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:27:57.273-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:27:57.272-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:27:57.280-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.073 seconds
+[2024-02-24T17:28:57.824-0600] {processor.py:161} INFO - Started process (PID=94870) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:28:57.825-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:28:57.825-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:28:57.825-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:28:57.831-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:28:57.882-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:28:57.882-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:28:57.890-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:28:57.890-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:28:57.897-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.074 seconds
+[2024-02-24T17:29:55.968-0600] {processor.py:161} INFO - Started process (PID=94915) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:29:55.970-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:29:55.971-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:29:55.971-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:29:55.976-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:29:56.026-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:29:56.025-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:29:56.033-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:29:56.033-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:29:56.041-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.073 seconds
+[2024-02-24T17:30:53.817-0600] {processor.py:161} INFO - Started process (PID=94958) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:30:53.819-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:30:53.819-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:30:53.819-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:30:53.825-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:30:53.876-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:30:53.875-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:30:53.883-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:30:53.883-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:30:53.891-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.074 seconds
+[2024-02-24T17:31:53.421-0600] {processor.py:161} INFO - Started process (PID=95007) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:31:53.423-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:31:53.423-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:31:53.423-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:31:53.429-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:31:53.481-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:31:53.481-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:31:53.489-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:31:53.488-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:31:53.496-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.076 seconds
+[2024-02-24T17:32:52.173-0600] {processor.py:161} INFO - Started process (PID=95055) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:32:52.174-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:32:52.175-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:32:52.174-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:32:52.181-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:32:52.236-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:32:52.236-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:32:52.244-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:32:52.244-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:32:52.252-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.080 seconds
+[2024-02-24T17:33:51.344-0600] {processor.py:161} INFO - Started process (PID=95112) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:33:51.345-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:33:51.345-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:33:51.345-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:33:51.351-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:33:51.400-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:33:51.400-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:33:51.408-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:33:51.408-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:33:51.415-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.072 seconds
+[2024-02-24T17:34:50.505-0600] {processor.py:161} INFO - Started process (PID=95156) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:34:50.507-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:34:50.507-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:34:50.507-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:34:50.513-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:34:50.563-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:34:50.562-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:34:50.570-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:34:50.570-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:34:50.577-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.073 seconds
+[2024-02-24T17:35:50.258-0600] {processor.py:161} INFO - Started process (PID=95206) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:35:50.260-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:35:50.260-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:35:50.260-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:35:50.265-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:35:50.315-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:35:50.315-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:35:50.323-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:35:50.323-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:35:50.330-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.073 seconds
+[2024-02-24T17:36:47.094-0600] {processor.py:161} INFO - Started process (PID=95251) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:36:47.096-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:36:47.096-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:36:47.096-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:36:47.102-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:36:47.152-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:36:47.152-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:36:47.166-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:36:47.165-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:36:47.174-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.080 seconds
+[2024-02-24T17:37:45.024-0600] {processor.py:161} INFO - Started process (PID=95346) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:37:45.026-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:37:45.026-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:37:45.026-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:37:45.032-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:37:45.082-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:37:45.082-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:37:45.092-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:37:45.092-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:37:45.100-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.076 seconds
+[2024-02-24T17:40:29.784-0600] {processor.py:161} INFO - Started process (PID=95489) to work on /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:40:29.785-0600] {processor.py:830} INFO - Processing file /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py for tasks to queue
+[2024-02-24T17:40:29.786-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:40:29.786-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:40:29.791-0600] {processor.py:840} INFO - DAG(s) 'dags_file_tester' retrieved from /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py
+[2024-02-24T17:40:29.841-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:40:29.841-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-24T17:40:29.849-0600] {logging_mixin.py:188} INFO - [2024-02-24T17:40:29.849-0600] {dag.py:3823} INFO - Setting next_dagrun for dags_file_tester to 2024-02-23 00:00:00+00:00, run_after=2024-02-24 00:00:00+00:00
+[2024-02-24T17:40:29.857-0600] {processor.py:183} INFO - Processing /Users/vamseekrishna/Desktop/F1_Data_Warehouse/dags/driverDag.py took 0.074 seconds
