@@ -1,0 +1,20 @@
+[2024-02-25T12:19:21.299-0600] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: drivers_to_bq.run_etl manual__2024-02-25T18:19:16.245096+00:00 [queued]>
+[2024-02-25T12:19:21.302-0600] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: drivers_to_bq.run_etl manual__2024-02-25T18:19:16.245096+00:00 [queued]>
+[2024-02-25T12:19:21.303-0600] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-25T12:19:21.309-0600] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): run_etl> on 2024-02-25 18:19:16.245096+00:00
+[2024-02-25T12:19:21.314-0600] {standard_task_runner.py:60} INFO - Started process 20062 to run task
+[2024-02-25T12:19:21.319-0600] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'drivers_to_bq', 'run_etl', 'manual__2024-02-25T18:19:16.245096+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/driversDag.py', '--cfg-path', '/var/folders/2c/plc265_s31s2djb7299kj1fh0000gn/T/tmpfaggacl3']
+[2024-02-25T12:19:21.320-0600] {standard_task_runner.py:88} INFO - Job 15: Subtask run_etl
+[2024-02-25T12:19:21.343-0600] {task_command.py:423} INFO - Running <TaskInstance: drivers_to_bq.run_etl manual__2024-02-25T18:19:16.245096+00:00 [running]> on host vamsees-macbook-pro.local
+[2024-02-25T12:19:21.375-0600] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='drivers_to_bq' AIRFLOW_CTX_TASK_ID='run_etl' AIRFLOW_CTX_EXECUTION_DATE='2024-02-25T18:19:16.245096+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-25T18:19:16.245096+00:00'
+[2024-02-25T12:19:21.376-0600] {driversDag.py:26} INFO - getting drivers data
+[2024-02-25T12:19:21.376-0600] {logging_mixin.py:188} INFO - this is the extract >>>
+[2024-02-25T12:19:21.376-0600] {logging_mixin.py:188} INFO - year >>> 2023
+[2024-02-25T12:19:21.376-0600] {logging_mixin.py:188} INFO - getting response >>>
+[2024-02-25T12:20:16.802-0600] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-02-25T12:20:16.806-0600] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 20062. PIDs of all processes in the group: [20062]
+[2024-02-25T12:20:16.806-0600] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 20062
+[2024-02-25T12:21:16.841-0600] {process_utils.py:149} WARNING - process psutil.Process(pid=20062, name='Python', status='running', started='12:19:21') did not respond to SIGTERM. Trying SIGKILL
+[2024-02-25T12:21:16.859-0600] {process_utils.py:86} INFO - Sending the signal Signals.SIGKILL to group 20062
+[2024-02-25T12:21:16.868-0600] {process_utils.py:79} INFO - Process psutil.Process(pid=20062, name='Python', status='terminated', exitcode=<Negsignal.SIGKILL: -9>, started='12:19:21') (20062) terminated with exit code Negsignal.SIGKILL
+[2024-02-25T12:21:16.871-0600] {standard_task_runner.py:175} ERROR - Job 15 was killed before it finished (likely due to running out of memory)

@@ -20,10 +20,13 @@ jobConfig = bigquery.LoadJobConfig(
     write_disposition = "WRITE_APPEND",
 )
 def loadData(df):
+    print("entered the loading function >>>")
     job = client.load_table_from_dataframe(
         df,tableId,jobConfig
     )
+    print("loading data into big query >>>")
     job.result()
+    print("returning the response >>>")
     return "loaded data"
 
 # %%

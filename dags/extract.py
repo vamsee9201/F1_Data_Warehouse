@@ -9,7 +9,16 @@ data = {
          "year": 2014
     }
 def extractDriversData(year):
+    print("this is the extract >>>")
+    print("year >>>", year)
     data['year'] = year
-    response = requests.put(url, headers=headers, data=json.dumps(data))
+    print("printing data >>> ",data)
+    print("getting response >>>")
+    try :
+        response = requests.put(url, headers=headers, data=json.dumps(data), timeout=30)
+    except Exception as e :
+        print("exception created >>>>", e)
+    print("getting driversJson data >>>")
     driversJson = response.json()
+    print("returning JSON data >>>")
     return driversJson

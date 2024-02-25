@@ -4,6 +4,7 @@ import transform
 import load
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+#from airflow.operators.python import PythonVirtualenvOperator
 import datetime as dt
 from airflow.utils.dates import days_ago
 import logging
@@ -36,4 +37,4 @@ t1 = PythonOperator(
     dag=dag
 )
 #%%
-t1
+
