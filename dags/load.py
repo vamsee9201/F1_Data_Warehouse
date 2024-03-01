@@ -15,12 +15,12 @@ credentials = service_account.Credentials.from_service_account_file(
     credentialsFileName)
 client = bigquery.Client(credentials=credentials)
 #%%
-tableId = "f1datawarehouse.f1Test.driversData"
 jobConfig = bigquery.LoadJobConfig(
     write_disposition = "WRITE_APPEND",
 )
-def loadData(df):
+def loadData(df,tableId):
     print("entered the loading function >>>")
+    tableId = "f1datawarehouse.f1Test.{}".format(tableId)
     job = client.load_table_from_dataframe(
         df,tableId,jobConfig
     )
@@ -28,6 +28,7 @@ def loadData(df):
     job.result()
     print("returning the response >>>")
     return "loaded data"
+
 
 # %%
 

@@ -39,6 +39,3 @@ def extractTeamsData(year):
     teamsJson = response.json()
     print("returning JSON data >>>")
     return teamsJson
-    
-def extractRaceSchedule(year):
-    return

@@ -23,7 +23,7 @@ dag = DAG(
     start_date=days_ago(1),
     
 )
-def run_etl():
+def run_drivers_etl():
     logging.info("getting drivers data")
     df = extract.extractDriversData(2023)
     logging.info("transforming")
@@ -32,8 +32,8 @@ def run_etl():
     load.loadData(transform1)
 #%%
 t1 = PythonOperator(
-    task_id = "run_etl",
-    python_callable=run_etl,
+    task_id = "run_drivers_etl",
+    python_callable=run_drivers_etl,
     dag=dag
 )
 #%%
