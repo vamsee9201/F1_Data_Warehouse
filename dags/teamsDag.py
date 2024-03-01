@@ -7,6 +7,7 @@ from airflow.operators.python import PythonOperator
 #from airflow.operators.python import PythonVirtualenvOperator
 import datetime as dt
 from airflow.utils.dates import days_ago
+from datetime import datetime
 import logging
 #%%
 default_args = {
@@ -19,13 +20,13 @@ default_args = {
 dag = DAG(
     'teams_to_bq',
     default_args=default_args,
-    schedule_interval='@once',
-    start_date=days_ago(1),
-    
+    schedule_interval='@yearly',
+    start_date=datetime(2014,12,15),
+    catchup=True
 )
-def run_teams_etl(year):
+def run_teams_etl(**context):
     logging.info("getting drivers data")
-    df = extract.extractTeamsData(year)
+    df = extract.extractTeamsData(context['execution_date'].year)
     logging.info("transforming")
     transform1 = transform.transform(df)
     logging.info("loading data")
@@ -34,7 +35,7 @@ def run_teams_etl(year):
 t1 = PythonOperator(
     task_id = "run_teams_etl",
     python_callable=run_teams_etl,
-    op_kwargs={"year":2023},
+    provide_context=True,
     dag=dag
 )
 #%%
