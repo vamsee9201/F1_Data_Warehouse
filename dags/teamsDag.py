@@ -23,9 +23,9 @@ dag = DAG(
     start_date=days_ago(1),
     
 )
-def run_teams_etl():
+def run_teams_etl(year):
     logging.info("getting drivers data")
-    df = extract.extractTeamsData(2023)
+    df = extract.extractTeamsData(year)
     logging.info("transforming")
     transform1 = transform.transform(df)
     logging.info("loading data")
@@ -34,6 +34,7 @@ def run_teams_etl():
 t1 = PythonOperator(
     task_id = "run_teams_etl",
     python_callable=run_teams_etl,
+    op_kwargs={"year":2023},
     dag=dag
 )
 #%%
