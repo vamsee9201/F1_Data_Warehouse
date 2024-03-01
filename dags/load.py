@@ -10,7 +10,7 @@ import pytz
 import pandas as pd
 #%%
 
-credentialsFileName = "vamseeSAcredentials.json"
+credentialsFileName = "/home/airflow/gcs/dags/vamseeSAcredentials.json"
 credentials = service_account.Credentials.from_service_account_file(
     credentialsFileName)
 client = bigquery.Client(credentials=credentials)
