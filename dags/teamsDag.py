@@ -29,7 +29,7 @@ def run_teams_etl():
     logging.info("transforming")
     transform1 = transform.transform(df)
     logging.info("loading data")
-    load.loadData(transform1)
+    load.loadData(transform1,"teamsData")
 #%%
 t1 = PythonOperator(
     task_id = "run_teams_etl",

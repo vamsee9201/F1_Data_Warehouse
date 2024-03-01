@@ -29,7 +29,7 @@ def run_drivers_etl():
     logging.info("transforming")
     transform1 = transform.transform(df)
     logging.info("loading data")
-    load.loadData(transform1)
+    load.loadData(transform1,"driversData")
 #%%
 t1 = PythonOperator(
     task_id = "run_drivers_etl",
