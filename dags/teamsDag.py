@@ -16,13 +16,13 @@ default_args = {
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
-    'schedule_interval':'@yearly',
-    'start_date':datetime(2014,12,15)
 }
 dag = DAG(
     'teams_to_bq',
     default_args=default_args,
-    catchup=True
+    catchup=True,
+    start_date=datetime(2014,12,15),
+    schedule_interval='0 0 15 12 *'
 )
 def run_teams_etl(**context):
     logging.info("getting drivers data")
