@@ -1,8 +1,9 @@
 #transform drivers with pandas.
 import pandas as pd
 #%%
-def transform(driversJson):
+def transformTeams(teamsJson,year):
     print("transforming data >>>")
-    driversDf = pd.DataFrame(driversJson)
+    teamsDf = pd.DataFrame(teamsJson)
+    teamsDf['year'] = year
     print("returning the transformed data >>>")
-    return driversDf
+    return teamsDf

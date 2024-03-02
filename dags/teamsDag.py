@@ -18,7 +18,7 @@ default_args = {
     'retries': 1,
 }
 dag = DAG(
-    'teams_to_bq',
+    'teams_to_bq_2',
     default_args=default_args,
     catchup=True,
     start_date=datetime(2014,12,15),
@@ -26,9 +26,10 @@ dag = DAG(
 )
 def run_teams_etl(**context):
     logging.info("getting drivers data")
-    df = extract.extractTeamsData(context['execution_date'].year)
+    year = context['execution_date'].year
+    df = extract.extractTeamsData(year)
     logging.info("transforming")
-    transform1 = transform.transform(df)
+    transform1 = transform.transformTeams(df,year)
     logging.info("loading data")
     load.loadData(transform1,"teamsData")
 #%%
