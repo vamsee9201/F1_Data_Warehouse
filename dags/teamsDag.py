@@ -18,10 +18,10 @@ default_args = {
     'retries': 1,
 }
 dag = DAG(
-    'teams_to_bq_2',
+    'teams_to_bq_4',
     default_args=default_args,
     catchup=True,
-    start_date=datetime(2014,12,15),
+    start_date=datetime(2014,12,14),
     schedule_interval='0 0 15 12 *'
 )
 def run_teams_etl(**context):
