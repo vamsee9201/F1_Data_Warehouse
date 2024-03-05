@@ -18,7 +18,7 @@ default_args = {
     'retries': 1,
 }
 dag = DAG(
-    'drivers_to_bq',
+    'drivers_to_bq_2',
     default_args=default_args,
     catchup=True,
     start_date=datetime(2013,12,14),

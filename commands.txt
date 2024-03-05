@@ -1,0 +1,3 @@
+export AIRFLOW_HOME=/Users/vamseekrishna/Desktop/F1_Data_Warehouse
+
+export NO_PROXY="*"
