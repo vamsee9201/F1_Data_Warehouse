@@ -7,3 +7,10 @@ def transformTeams(teamsJson,year):
     teamsDf['year'] = year
     print("returning the transformed data >>>")
     return teamsDf
+#%%
+def transformDrivers(driversJson,year):
+    print("transforming data >>>")
+    driversDf = pd.DataFrame(driversJson)
+    driversDf['year'] = year
+    print("returning the transformed data >>>")
+    return driversDf

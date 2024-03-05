@@ -8,6 +8,7 @@ from airflow.operators.python import PythonOperator
 import datetime as dt
 from airflow.utils.dates import days_ago
 import logging
+from datetime import datetime
 #%%
 default_args = {
     'retries' : 2,
@@ -19,15 +20,17 @@ default_args = {
 dag = DAG(
     'drivers_to_bq',
     default_args=default_args,
-    schedule_interval='@once',
-    start_date=days_ago(1),
+    catchup=True,
+    start_date=datetime(2013,12,14),
+    schedule_interval='0 0 15 12 *'
     
 )
-def run_drivers_etl():
+def run_drivers_etl(**context):
     logging.info("getting drivers data")
-    df = extract.extractDriversData(2023)
+    year = context['execution_date'].year + 1
+    df = extract.extractDriversData(year)
     logging.info("transforming")
-    transform1 = transform.transform(df)
+    transform1 = transform.transformDrivers(df)
     logging.info("loading data")
     load.loadData(transform1,"driversData")
 #%%
