@@ -18,19 +18,18 @@ default_args = {
     'retries': 1,
 }
 dag = DAG(
-    'drivers_to_bq_2',
+    'drivers_to_bq',
     default_args=default_args,
     catchup=True,
     start_date=datetime(2013,12,14),
     schedule_interval='0 0 15 12 *'
-    
 )
 def run_drivers_etl(**context):
     logging.info("getting drivers data")
     year = context['execution_date'].year + 1
     df = extract.extractDriversData(year)
     logging.info("transforming")
-    transform1 = transform.transformDrivers(df)
+    transform1 = transform.transformDrivers(df,year)
     logging.info("loading data")
     load.loadData(transform1,"driversData")
 #%%
