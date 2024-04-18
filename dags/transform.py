@@ -14,3 +14,6 @@ def transformDrivers(driversJson,year):
     driversDf['year'] = year
     print("returning the transformed data >>>")
     return driversDf
+
+#%%
+# write code here to tranform all the data you get from extract

@@ -39,3 +39,5 @@ def extractTeamsData(year):
     teamsJson = response.json()
     print("returning JSON data >>>")
     return teamsJson
+
+# Extracting raw data from the site directly
