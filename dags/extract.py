@@ -41,3 +41,6 @@ def extractTeamsData(year):
     return teamsJson
 
 # Extracting raw data from the site directly
+
+def extractRaceEventData(year):
+    return 0
